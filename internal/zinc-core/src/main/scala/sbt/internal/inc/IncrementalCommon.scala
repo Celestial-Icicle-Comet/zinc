@@ -139,7 +139,7 @@ private[inc] abstract class IncrementalCommon(
     }
 
     /**
-     * IncrementalCallbackImpl is a callback hanlder that the custom
+     * IncrementalCallbackImpl is a callback handler that the custom
      * phases injected by Zinc call back to perform certain operations mid-compilation.
      * In particular, for pipelining, we need to know whether the current
      * incremental cycle is going to be the last cycle or not.
